@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace YOUR-DEPLOYED-SITE-URL with the real published website address before final submission. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://YOUR-DEPLOYED-SITE-URL/</loc></url>
+  <url><loc>https://YOUR-DEPLOYED-SITE-URL/about.html</loc></url>
+  <url><loc>https://YOUR-DEPLOYED-SITE-URL/products.html</loc></url>
+  <url><loc>https://YOUR-DEPLOYED-SITE-URL/gallery.html</loc></url>
+  <url><loc>https://YOUR-DEPLOYED-SITE-URL/enquiry.html</loc></url>
+  <url><loc>https://YOUR-DEPLOYED-SITE-URL/contact.html</loc></url>
+</urlset>

@@ -1,0 +1,31 @@
+VARSITY BAKERY - PART 2 AND PART 3 CHECKLIST
+
+COMPLETED:
+[✓] External CSS stylesheet
+[✓] Base CSS/reset
+[✓] Typography
+[✓] Flexbox/Grid desktop layout
+[✓] Visual styling and hover/focus states
+[✓] Tablet/mobile media queries
+[✓] Relative units
+[✓] Responsive images with picture/srcset/sizes
+[✓] JavaScript product search/filter
+[✓] Gallery lightbox
+[✓] FAQ interaction
+[✓] Leaflet map
+[✓] Enquiry form
+[✓] Contact form
+[✓] HTML5 + JavaScript validation
+[✓] Error messages
+[✓] SEO title and meta descriptions
+[✓] Image alt text
+[✓] robots.txt
+[✓] sitemap.xml template
+[✓] README and changelog
+
+BEFORE FINAL SUBMISSION:
+[ ] Replace YOUR-DEPLOYED-SITE-URL in sitemap.xml and robots.txt after deployment.
+[ ] Deploy the website on the free platform required by the assignment.
+[ ] Add the deployed website URL to the LMS submission.
+[ ] Take desktop, tablet and mobile screenshots of the working website and put them in the screenshots folder/README.
+[ ] Push the final files to the lecturer's private GitHub repository with descriptive commits.
