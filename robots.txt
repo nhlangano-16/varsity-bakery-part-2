@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-DEPLOYED-SITE-URL/sitemap.xml
+Sitemap: https://Varsity-bakery.netlify.app/sitemap.xml

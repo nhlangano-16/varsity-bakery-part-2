@@ -7,9 +7,9 @@
 			<meta name="keywords" content="Varsity Bakery, bakery Pretoria, Menlopark bakery, fresh meals, bakery products">
 			<title>Varsity Bakery | Home</title>
 			<link rel="stylesheet" href="css/style.css">
-			<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-	 </head>
-	 <body>
+	 <link rel="canonical" href="https://varsity-bakery.netlify.app/">
+</head>
+	 <body><a class="skip-link" href="#main">Skip to content</a>
 			<header class="site-header">
 				 <div class="container header-inner">
 						<div>
@@ -18,7 +18,7 @@
 						</div>
 						<nav aria-label="Main navigation">
 							 <ul>
-									<li><a class="active" href="index.html">Home</a></li>
+									<li><a aria-current="page" class="active" href="index.html">Home</a></li>
 									<li><a class="" href="about.html">About Us</a></li>
 									<li><a class="" href="products.html">Products/Menu</a></li>
 									<li><a class="" href="gallery.html">Gallery</a></li>
@@ -28,7 +28,7 @@
 						</nav>
 				 </div>
 			</header>
-				 <main>
+				 <main id="main">
 						<div class="container hero">
 							 <div>
 									<p><strong>Welcome to Varsity Bakery</strong></p>
@@ -39,7 +39,7 @@
 							 <div class="hero-image"><picture>
 										 <source media="(max-width: 600px)" srcset="images/bakery-bread-480.png">
 												<source media="(min-width: 601px)" srcset="images/bakery-bread-960.png">
-													 <img src="images/bakery-bread-960.png" srcset="images/bakery-bread-480.png 480w, images/bakery-bread-960.png 960w" sizes="(max-width: 600px) 92vw, 45vw" alt="Varsity Bakery bread prototype image">
+													 <img src="images/bakery-bread-960.png" srcset="images/bakery-bread-480.png 480w, images/bakery-bread-960.png 960w" sizes="(max-width: 600px) 92vw, 45vw" alt="Varsity Bakery bread prototype image" width="960" height="600" fetchpriority="high" decoding="async">
 									</picture>
 							 </div>
 						</div>
@@ -73,7 +73,6 @@
 							 <p><a href="contact.html">Contact us</a> | <a href="enquiry.html">Make an enquiry</a></p>
 						</div>
 				 </footer>
-				 <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 				 <script defer src="js/script.js"></script>
 	 </body>
 </html>
