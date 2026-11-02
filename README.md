@@ -76,33 +76,6 @@ Published website: https://varsity-bakery.netlify.app/
 
 Netlify detects the two HTML forms on deployment. Submissions are available in the site’s Forms dashboard. The optional email-copy link requires a configured email application. The sitemap, robots.txt and canonical URLs use the published domain.
 
-## Changelog
-### Part 3 - Current update
-- Added JavaScript product search and filtering.
-- Added gallery lightbox interaction.
-- Added FAQ expandable sections.
-- Added enquiry form validation and customer response.
-- Added contact form validation and email preparation.
-- Added Leaflet map and delivery service area.
-- Added SEO title tags, descriptions and keywords.
-- Added robots.txt and sitemap.xml.
-
-### Part 2 - Previous update
-- Added external CSS stylesheet.
-- Added base styles and CSS reset.
-- Added typography styling.
-- Added Grid and Flexbox layouts.
-- Added colours, borders, shadows and button states.
-- Added responsive tablet and mobile media queries.
-- Added responsive image files and srcset/sizes.
-
-### Part 1
-- Created the five original HTML pages.
-- Added the project folder structure.
-- Added prototype image assets.
-- Added navigation between pages.
-- Added initial bakery content.
-
 ## References
 Varsity Bakery. (2026). Varsity Bakery. https://varsitybakery.co.za/
 
