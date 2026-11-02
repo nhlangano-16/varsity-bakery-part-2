@@ -72,7 +72,7 @@ admin@varsitybakery.co.za
 The map uses Leaflet and OpenStreetMap. The second map item is an approximate nearby delivery service area, not a second bakery branch.
 
 ## Deployment
-Published website: https://stirring-kashata-fdd2c4.netlify.app/
+Published website: https://varsity-bakery.netlify.app/
 
 Netlify detects the two HTML forms on deployment. Submissions are available in the site’s Forms dashboard. The optional email-copy link requires a configured email application. The sitemap, robots.txt and canonical URLs use the published domain.
 
