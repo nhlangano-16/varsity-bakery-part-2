@@ -1,106 +1,29 @@
-# Varsity Bakery Website
+# Varsity Bakery — Web Development Portfolio (WEDE5020)
 
-## Project
-Varsity Bakery website for the WEDE5020 Web Development (Introduction) POE.
+A responsive, multi-page website built for **Varsity Bakery** (309 Lynwood Road, Menlopark, Pretoria), showcasing freshly baked goods, daily meals, interactive menu filtering, a gallery lightbox, location mapping, and online enquiry/contact forms.
 
-## Student Information
-Student name: Nhlangano
-Student number: ST10526531
+## Live Deployment & Repository
+- **Live Site:** https://varsity-bakery.netlify.app/
+- **Pages:** `index.html`, `about.html`, `products.html`, `gallery.html`, `enquiry.html`, `contact.html`
 
-## Project Overview
-This website is a simple website for Varsity Bakery in Menlopark, Pretoria. It gives visitors information about the bakery, menu categories, gallery images, enquiries and contact details.
-
-## Website Goals and Objectives
-- Make bakery information easy to find.
-- Show the main menu categories.
-- Make customer enquiries easier.
-- Give customers contact and delivery information.
-- Make the website easy to use on desktop, tablet and mobile.
-
-## Pages
-1. Home - index.html
-2. About Us - about.html
-3. Products/Menu - products.html
-4. Gallery - gallery.html
-5. Enquiry - enquiry.html
-6. Contact - contact.html
-
-## Main Features
-### Part 2
-- External CSS stylesheet.
-- Consistent colours, fonts and spacing.
-- Flexbox and CSS Grid layouts.
-- Hover and focus states.
-- Desktop, tablet and mobile breakpoints.
-- Responsive images using picture, srcset and sizes.
-- Simple layout that is easy to read.
-
-### Part 3
-- JavaScript product search/filter.
-- Gallery lightbox.
-- FAQ accordion using HTML details/summary.
-- Leaflet map with the bakery store and an approximate delivery service area.
-- Enquiry form validation and response.
-- Contact form validation and mailto email preparation.
-- SEO title tags and meta descriptions.
-- Descriptive image alt text.
-- robots.txt and sitemap.xml.
-- Internal links between pages.
-
-
-## Part 2 Responsive Testing
-The CSS uses:
-- Desktop layout above 900px.
-- Tablet layout at 900px and below.
-- Mobile layout at 600px and below.
-- rem, em, %, vw and clamp() where suitable.
-- Responsive image srcset/sizes.
-
-Browser evidence is included in `screenshots/` showing:
-- Desktop view
-- Tablet view
-- Mobile view
-
-The screenshots were captured from the local site in Chromium at 1440px, 768px and 390px widths.
-
-## Part 3 Notes
-The enquiry form gives a response after successful validation. It does not show fixed menu prices because prices can change.
-
-Both forms validate input and submit asynchronously to Netlify Forms. Submission failures retain entries and offer a retry. A successful contact submission also provides an optional prepared email addressed to:
-admin@varsitybakery.co.za
-
-The map uses Leaflet and OpenStreetMap. The second map item is an approximate nearby delivery service area, not a second bakery branch.
-
-## Deployment
-Published website: https://varsity-bakery.netlify.app/
-
-Netlify detects the two HTML forms on deployment. Submissions are available in the site’s Forms dashboard. The optional email-copy link requires a configured email application. The sitemap, robots.txt and canonical URLs use the published domain.
-
-## References
-Varsity Bakery. (2026). Varsity Bakery. https://varsitybakery.co.za/
-
-Varsity Bakery. (2026). Terms and Conditions. https://varsitybakery.co.za/terms-conditions/
-
-Leaflet. (2026). Leaflet JavaScript library. https://leafletjs.com/
-
-OpenStreetMap. (2026). OpenStreetMap. https://www.openstreetmap.org/
-
-Project proposal and research documents from Part 1 are retained in the original Part 1 submission.
-
-## Part 3 compliance update
-- Added menu sorting (menu order, A–Z and Z–A), result counts and a no-JavaScript category summary.
-- Connected enquiry and contact forms to Netlify Forms with URL-encoded AJAX POST requests, honeypot spam prevention, pending/success/failure states and duplicate-submit prevention.
-- Kept the required contact email preparation as an optional link after submission. Enquiry responses include delivery/pickup information; prices require confirmation.
-- Added keyboard lightbox activation, modal focus handling, skip links, current-page navigation and accessible form feedback.
-- Added CSS transitions, animated dynamic results and JavaScript scroll reveals with reduced-motion support.
-- Corrected sitemap/robots URLs, added canonical URLs and Bakery structured data with the supplied business address and contact details.
-- Limited Leaflet loading to Contact, added image dimensions and lazy-loaded non-hero images, and added cache/security headers.
-
-## Keyword and local-search rationale
-The chosen phrases are “Varsity Bakery”, “Menlopark bakery”, “bakery Pretoria”, “breakfast”, “sandwiches”, “delivery” and “pickup”. They reflect the business name, supplied location, menu categories and customer actions. Relevant phrases appear naturally in page titles, descriptions, headings and content. This is a content-based keyword selection, not a claim of measured search-volume research. Contact includes the consistent business address, phone and Bakery structured data. No unverified opening hours, ratings or prices were added.
+## Features Implemented
+- **Dynamic Menu Search & Filtering (`products.html`, `js/script.js`):** Real-time keyword search across menu categories and descriptions, category filter pills, A–Z / Z–A sorting, and live result counters.
+- **Interactive Gallery Lightbox (`gallery.html`, `js/script.js`):** Full-screen modal viewer with Previous/Next buttons, slide counter, keyboard arrow navigation, `Escape` closing, and focus management.
+- **Client-Side Form Validation & Email Integration (`enquiry.html`, `contact.html`):** Accessible inline error reporting (`aria-invalid`), Netlify Forms AJAX submission, and prepared `mailto:` email drafts to `admin@varsitybakery.co.za`.
+- **Interactive Location Map (`contact.html`):** Leaflet.js map displaying the Menlopark store marker and 1.8 km delivery service zone.
+- **Technical SEO:** Unique page-specific `<title>`, `<meta name="description">`, `<meta name="keywords">`, descriptive image `alt` attributes, `robots.txt`, and `sitemap.xml`.
 
 ## Changelog
-See [CHANGELOG.md](CHANGELOG.md) for the complete version history.
-- **Part 1 (Sept 2026):** Built semantic HTML5 pages, navigation structure, and prototype SVG assets.
-- **Part 2 (Oct 2026):** Implemented external CSS stylesheet (css/style.css), Grid/Flexbox layouts, and desktop/tablet/mobile responsive breakpoints.
-- **Part 3 (Nov 2026):** Added real-time product search & category filtering, Next/Previous gallery lightbox, FAQ accordions, Leaflet interactive map, form validation with mailto: preparation, page-specific SEO meta tags/alt text, obots.txt, sitemap.xml, and flattened repository root structure.
+See [CHANGELOG.md](CHANGELOG.md) for the full version history.
+- **Part 1 (Sept 2026):** Built semantic HTML5 pages (`index.html`, `about.html`, `products.html`, `gallery.html`, `enquiry.html`, `contact.html`), navigation structure, and custom SVG bakery assets.
+- **Part 2 (Oct 2026):** Created external stylesheet (`css/style.css`) with CSS variables, Flexbox/Grid layouts, and desktop/tablet/mobile responsive breakpoints.
+- **Part 3 (Nov 2026):** Implemented dynamic product search & category filtering, Next/Previous gallery lightbox, FAQ accordions, Leaflet interactive map, form validation with `mailto:` email drafts, page-specific SEO metadata, `robots.txt`, `sitemap.xml`, and flattened repository root structure.
+
+## References
+- Leaflet. 2026. *Leaflet — an open-source JavaScript library for interactive maps*. Available at: https://leafletjs.com/reference.html (Accessed: 14 November 2026).
+- Mozilla Developer Network (MDN). 2026. *Client-side form validation*. Available at: https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation (Accessed: 12 November 2026).
+- Mozilla Developer Network (MDN). 2026. *CSS Grid Layout*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout (Accessed: 10 October 2026).
+- Mozilla Developer Network (MDN). 2026. *Responsive images*. Available at: https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images (Accessed: 10 October 2026).
+- Netlify. 2026. *Netlify Forms setup and AJAX submissions*. Available at: https://docs.netlify.com/forms/setup/ (Accessed: 14 November 2026).
+- OpenStreetMap Contributors. 2026. *OpenStreetMap Tile Server Usage Policy*. Available at: https://www.openstreetmap.org/copyright (Accessed: 14 November 2026).
+- W3C Web Accessibility Initiative (WAI). 2026. *ARIA Authoring Practices Guide — Dialog (Modal) Pattern*. Available at: https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/ (Accessed: 13 November 2026).
