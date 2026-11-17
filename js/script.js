@@ -216,8 +216,11 @@ if (enquiryForm) {
       : "Pickup is available from the Menlopark store at 309 Lynwood Rd.";
 
     const confirmation = `Thank you, ${name.value.trim()}! Your enquiry regarding ${product.value} has been submitted. ${deliveryText} Our team will reply to ${email.value.trim()} to confirm availability and current pricing.`;
+    const eqSubject = encodeURIComponent(`Varsity Bakery Enquiry - ${product.value} (${method.value})`);
+    const eqBody = encodeURIComponent(`Name: ${name.value.trim()}\nEmail: ${email.value.trim()}\nCategory: ${product.value}\nMethod: ${method.value}\n\nDetails:\n${message.value.trim()}`);
+    const eqMailto = `mailto:admin@varsitybakery.co.za?subject=${eqSubject}&body=${eqBody}`;
     submitForm(enquiryForm, result, () => {
-      result.textContent = confirmation;
+      result.innerHTML = `${confirmation} <br><a href="${eqMailto}" class="btn" style="display:inline-block;margin-top:.5rem;">Open Prepared Email to Bakery</a>`;
       enquiryForm.reset();
     });
   });
@@ -301,3 +304,4 @@ if ("IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: re
     observer.observe(el);
   });
 }
+
