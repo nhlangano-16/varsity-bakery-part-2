@@ -151,3 +151,12 @@ body.modal-open { overflow: hidden; }
   .reveal { opacity: 1; transform: none; }
 }
 @media (max-width: 600px) { .product-tools > div:last-child { flex-basis: auto; } }
+
+/* Lightbox Next/Prev & Product Filter Pills */
+.lightbox-content { position: relative; text-align: center; }
+.lightbox-nav { display: flex; justify-content: space-between; align-items: center; margin-top: .75rem; gap: .5rem; }
+.lightbox-nav button { background: var(--brown); color: var(--white); border: 0; padding: .5rem 1rem; border-radius: .35rem; cursor: pointer; font-weight: 700; }
+.lightbox-nav button:hover { background: var(--accent); }
+.filter-pills { display: flex; flex-wrap: wrap; gap: .4rem; margin: .75rem 0; }
+.filter-pill { background: var(--white); color: var(--brown); border: 1px solid var(--brown); padding: .35rem .75rem; border-radius: 999px; cursor: pointer; font-size: .9rem; font-weight: 700; }
+.filter-pill.active, .filter-pill:hover { background: var(--brown); color: var(--white); }

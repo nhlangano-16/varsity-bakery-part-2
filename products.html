@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Search Varsity Bakery menu categories including breakfast, sandwiches, burgers, chicken, sides and drinks.">
-		<meta name="keywords" content="Varsity Bakery, bakery Pretoria, Menlopark bakery, fresh meals, bakery products">
+		<meta name="keywords" content="Varsity Bakery menu, breakfast Pretoria, fresh sandwiches, gourmet burgers, pregos, chicken meals, cold drinks">
 		<title>Varsity Bakery | Products & Menu</title>
 		<link rel="stylesheet" href="css/style.css">
  <link rel="canonical" href="https://varsity-bakery.netlify.app/products">
@@ -33,7 +33,7 @@
 				 </div>
 				 <section class="section">
 						<div class="container">
-							 <div class="product-tools"><div class="search-control"><label for="productSearch">Search menu categories</label>
+							 <div id="categoryPills" class="filter-pills" role="group" aria-label="Filter by category"></div><div class="product-tools"><div class="search-control"><label for="productSearch">Search menu categories</label>
 									<input id="productSearch" type="search" placeholder="Search products or menu categories" aria-label="Search products or menu categories"></div><div><label for="productSort">Sort categories</label><select id="productSort"><option value="default">Menu order</option><option value="asc">Name: A–Z</option><option value="desc">Name: Z–A</option></select></div></div><p id="productCount" role="status" aria-live="polite"></p>
 							 <div id="productList" class="product-grid"></div><noscript><p>Enable JavaScript to search and sort. Our menu includes breakfast, healthy meals, sandwiches, burgers, subs, dogs and batties, ribs, salad, pregos, bowls, chicken, sides, extras and cold drinks.</p></noscript>
 							 <p id="noProducts" class="notice" hidden>No matching menu items were found.</p>
@@ -51,3 +51,4 @@
 						<script defer src="js/script.js"></script>
 	 </body>
 </html>
+

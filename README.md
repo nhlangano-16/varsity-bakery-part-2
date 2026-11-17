@@ -98,3 +98,9 @@ Project proposal and research documents from Part 1 are retained in the original
 
 ## Keyword and local-search rationale
 The chosen phrases are “Varsity Bakery”, “Menlopark bakery”, “bakery Pretoria”, “breakfast”, “sandwiches”, “delivery” and “pickup”. They reflect the business name, supplied location, menu categories and customer actions. Relevant phrases appear naturally in page titles, descriptions, headings and content. This is a content-based keyword selection, not a claim of measured search-volume research. Contact includes the consistent business address, phone and Bakery structured data. No unverified opening hours, ratings or prices were added.
+
+## Changelog
+See [CHANGELOG.md](CHANGELOG.md) for the complete version history.
+- **Part 1 (Sept 2026):** Built semantic HTML5 pages, navigation structure, and prototype SVG assets.
+- **Part 2 (Oct 2026):** Implemented external CSS stylesheet (css/style.css), Grid/Flexbox layouts, and desktop/tablet/mobile responsive breakpoints.
+- **Part 3 (Nov 2026):** Added real-time product search & category filtering, Next/Previous gallery lightbox, FAQ accordions, Leaflet interactive map, form validation with mailto: preparation, page-specific SEO meta tags/alt text, obots.txt, sitemap.xml, and flattened repository root structure.
